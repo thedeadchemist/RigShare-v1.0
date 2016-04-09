@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"italic"
+			],
+			[
+				"Da",
+				"DaysOne-Regular"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"na",
+				"navOffset"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "git init",
+		"selected_items":
+		[
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"git di",
+				"Git: Diff Staged Files"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git quic	",
+				"Git: Quick Commit"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git add	",
+				"Git: Add All"
+			],
+			[
+				"git quick		",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git: diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Add All"
+			],
+			[
+				"package control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"SFTP",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"sftp",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 51.0,
+		"history":
+		[
+			"git",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/rob/Desktop/Miners 4 sale/RigShare Website/RigShare-v1.0"
+	],
+	"file_history":
+	[
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShare Website v1.0/RigShare v1.0 Unpacked/RigShare v1.0/Rigshare Website v1.0.sublime-project",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShare Website v1.0/RigShare v1.0 Unpacked/RigShare v1.0/Rigshare Website v1.0.sublime-workspace",
+		"/C/Users/rob/AppData/Local/Temp/Rar$EXa0.463/239710/index.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShare v1.0/RigShare v1.0/index.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/script.js",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/css/style.css",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/index.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/footer.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/includes/header.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/images/bg-pattern-red.jpg",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/sftp-config.json",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/includes/navigation.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/includes/footer.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/blog.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/about.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/contact.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/pricing.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/faq.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/privacy.php",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/.gitignore",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/sftp-config.text",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/header.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/css/sftp-config.json",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/contact.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/blog.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/Pricing.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/faq.html",
+		"/C/Users/rob/Desktop/Ethereum/RigShareMiningDotCom/RigShareMiningDotCom/about.html",
+		"/C/Users/rob/Desktop/Ethereum/RigSharedotcom/RigShareDotCom/navigation.html",
+		"/C/Users/rob/Desktop/Ethereum/RigSharedotcom/RigShareDotCom/sftp-config.json",
+		"/C/Users/rob/Desktop/Ethereum/RigSharedotcom/RigShareDotCom/services.html",
+		"/C/Users/rob/Desktop/Miners 4 sale/Website Tutorials/Cloud Mining Contracts - Genesis Mining.html",
+		"/C/Users/rob/Desktop/Ethereum/RigSharedotcom/RigShareDotCom/index.html",
+		"/C/Users/Chris/Documents/Home/Web Development/RigShareDotCom/sftp-config.json",
+		"/C/Users/Chris/Documents/Home/Web Development/RigShareDotCom/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/C/Users/Chris/Documents/Home/Web Development/RigShareDotCom/index.html",
+		"/C/Users/Chris/Documents/Home/Web Development/bastards.house/index.html",
+		"/C/Users/Chris/Documents/Home/Web Development/bastards.house/sftp-config.json",
+		"/C/Users/Chris/Documents/Home/Web Development/RigShare/helicoptertransportationwebtemplate/helicoptertransportationwebtemplate/css/blog_style.css",
+		"/C/Users/Chris/Documents/Home/Web Development/RigShare/helicoptertransportationwebtemplate/helicoptertransportationwebtemplate/blog.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body",
+			"images",
+			"index.html",
+			"blog.html",
+			"bg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"blog.php"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 139.0
+	},
+	"pinned_build_system": "",
+	"project": "RigShare Website v1.0 Project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
