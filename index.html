@@ -29,37 +29,152 @@
 </head>
 <body class="home">
 <!-- wrapper -->
-<div id="wrapper" class="win-min-height"><header id="block01a" class="header block" zp-module="Header">
+<div id="wrapper" class="win-min-height"><header id="block01c" class="header block background01" zp-module="Header">
     <div class="container header_block">
-    <button class="btn btn-default color02" type="button" id="trigger-overlay"> <span class="glyphicon glyphicon-align-justify color02"></span> <span class="men-text color02">Menu</span> <span class="caret color02"></span> </button>
-    <div class="overlay overlay-hugeinc">
-			<button type="button" class="overlay-close color02">X</button>
-			<nav>
-            <div class="container win-height">
-				<ul>
-					<li><a class="color02 color01-hover02" href="javascript:void(0)">Home</a></li>
-					<li><a class="color02 color01-hover02" href="javascript:void(0)">Services</a></li>
-					<li><a class="color02 color01-hover02" href="javascript:void(0)">Experties</a></li>
-					<li><a class="color02 color01-hover02" href="javascript:void(0)">Work</a></li>
-					<li><a class="color02 color01-hover02" href="javascript:void(0)">Blog</a></li>
-                    <li><a class="color02 color01-hover02" href="javascript:void(0)">Contact</a></li>
-				</ul>
-                </div>
-			</nav>
-		</div>
-      <a class="logo" href="#"><img src="images/logo01.png" alt="jigsaw"></a>
-      <div class="top-right">
-      <div class="social-icon">
+    <div class="row">
+    <div class="social-icon">
         <ul>
           <li><a class="color02 color01-hover03" href="#"><i class="fa fa-facebook">&nbsp;</i></a></li>
           <li><a class="color02 color01-hover03" href="#"><i class="fa fa-twitter">&nbsp;</i></a></li>
           <li><a class="color02 color01-hover03" href="#"><i class="fa fa-google-plus">&nbsp;</i></a></li>
         </ul>
-        <span class="search color04"><a href="javascript:void(0)" class="search-btn push pull fa fa-search color02 color01-hover03" onclick="toggle_visibility('showfeild');">&nbsp;</a>
-        <input id="showfeild" class="search-feild background02 color01" name="" type="text">
-        </span> </div></div>
+        <span class="search"><a href="javascript: void(0)" class="search-btn push pull fa fa-search color02 color01-hover03" onclick="toggle_visibility('showfeild');">&nbsp;</a>
+        <input id="showfeild" class="search-feild background02 color01" name="" type="text" placeholder="Search">
+        </span> </div>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo01.png" alt="jigsaw"></a>
+    <div class="menu-btn">
+      <button type="button" class="navbar-toggle collapsed color02" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <strong>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar background02"></span>
+        <span class="icon-bar background02"></span>
+        <span class="icon-bar background02"></span>
+        </strong>
+       <strong> MENU</strong>
+      </button></div>
     </div>
-  </header><div id="divider01" class="divider01" zp-module="Separator">&nbsp;</div><div id="divider02" class="divider02" zp-module="Separator">&nbsp;</div><section id="block03c" class="block animatedParent animateOnce" zp-module="Content">
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav color02">
+        <li class="active"><a class="color02 color01-hover03" href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle color02 color01-hover03" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu background01" role="menu">
+            <li><a class="color02 color01-hover03" href="#">Action</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">Another action</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle color02 color01-hover03" data-toggle="dropdown" role="button" aria-expanded="false">Experties <span class="caret"></span></a>
+          <ul class="dropdown-menu background01" role="menu">
+            <li><a class="color02 color01-hover03" href="#">Action</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">Another action</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a class="color02 color01-hover03" href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li><a class="color02 color01-hover03" href="#">work</a></li>
+        <li><a class="color02 color01-hover03" href="#">Blog</a></li>
+        <li><a class="color02 color01-hover03" href="#">Contact Us</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </div>  
+    </div>
+  </header><section id="block15" class="block background01 animatedParent animateOnce" zp-module="Blog">
+   
+      	<div class="row">
+        <div class="blog animated fadeIn slow">
+        	<h2>blog</h2>
+        </div>
+        	<div class="holder">
+            <div class="boxes animated fadeIn slow background08">
+            <div id="carousel15" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active">
+                <div class="img-area col-md-6 col-sm-6 col-xs-12">
+                	<img class="img-responsive" src="images/blog01.jpg" alt="Blog">
+                </div>
+            	<div class="text-area col-md-6 col-sm-6 col-xs-12 color01">
+                <h3>Duis sed odio sit amet nibh 
+vulputate cursus a sit.</h3>
+<p>29 March, 2015</p>
+                	<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+
+<span class="readmore"><a class="btn more color01 color01-hover" href="#"><i class="fa fa-arrow-right">&nbsp;</i></a></span>
+                           <div class="social">
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
+                            </div>
+                </div>
+                </div>
+                <div class="item">
+                <div class="img-area col-md-6 col-sm-6 col-xs-12">
+                	<img class="img-responsive" src="images/blog01.jpg" alt="Blog">
+                </div>
+            	<div class="text-area col-md-6 col-sm-6 col-xs-12 color01">
+                <h3>Duis sed odio sit amet nibh 
+vulputate cursus a sit.</h3>
+<p>29 March, 2015</p>
+                	<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+
+<span class="readmore"><a class="btn more color01 color01-hover" href="#"><i class="fa fa-arrow-right">&nbsp;</i></a></span>
+                           <div class="social">
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
+                            </div>
+                </div>
+                </div>
+                <div class="item">
+                <div class="img-area col-md-6 col-sm-6 col-xs-12">
+                	<img class="img-responsive" src="images/blog01.jpg" alt="Blog">
+                </div>
+            	<div class="text-area col-md-6 col-sm-6 col-xs-12 color01">
+                <h3>Duis sed odio sit amet nibh 
+vulputate cursus a sit.</h3>
+<p>29 March, 2015</p>
+                	<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+
+<span class="readmore"><a class="btn more color01 color01-hover" href="#"><i class="fa fa-arrow-right">&nbsp;</i></a></span>
+                           <div class="social">
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
+                            <a class="btn more color01 color01-hover03" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
+                            </div>
+                </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel15" data-slide-to="0" class="active background01"></li>
+                    <li data-target="#carousel15" data-slide-to="1" class="background01"></li>
+                    <li data-target="#carousel15" data-slide-to="2" class="background01"></li>
+  				</ol>
+                </div>
+                
+                </div>
+            </div>
+            </div>
+        </div>
+ 
+  </section><section id="block03f" class="block background01 animatedParent animateOnce" zp-module="Content">
     <div class="container">
       	<div class="row">
         <div class="feature animated fadeIn slow">
@@ -67,138 +182,100 @@
         </div>
         	<div class="holder">
             <div class="boxes animated fadeIn slow">
-            <div class="text-box col-md-6 col-sm-8 col-xs-8">
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis placerat pharetra ut vitae felis.  </span>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
-</p>
-            <a href="javascript:void(0)" class="btn btn-default more color01 background08 color01-hover border-color07">LEARN MORE</a>
-            </div>
+            <div class="video-box">
+                <div class="video_holder"> 
+                              <div class="embed-container"><iframe src="https://player.vimeo.com/video/116733407?autoplay=1&amp;color=ff9933&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+                              </div>
+                </div>
+            	<div class="text-box">
+                <div class="col">
+                    <div class="icone_box col-md-2 col-sm-2 col-xs-2"><span class="background08 color01"><i class="fa fa-clock-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-10 col-sm-10 col-xs-10">
+                    <h3>sMOOTH &amp; flUENT</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="icone_box col-md-2 col-sm-2 col-xs-2"><span class="background08 color01"><i class="fa fa-star-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-10 col-sm-10 col-xs-10">
+                    <h3>loved by thousands</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="icone_box col-md-2 col-sm-2 col-xs-2"><span class="background08 color01"><i class="fa fa-headphones">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-10 col-sm-10 col-xs-10">
+                    <h3>Updates &amp; Supports</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+                    </div>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
       </div>
-  </section><section id="block07a" class="block background01 animatedParent animateOnce" zp-module="Stats">
+  </section><section id="block03j" class="block background01 animatedParent animateOnce" zp-module="Content">
     <div class="container">
       	<div class="row">
         <div class="feature animated fadeIn slow">
-        	<h2>FIGURES</h2>
+        	<h2>we love what we do</h2>
         </div>
-        	<div class="boxes animated fadeIn slow">
-                <div class="col col-sm-3 col-xs-6">
-               <div class="inner-holder background09">
-               <div class="icone_box counter color10">34</div>
-                <h3>Creative AWARDS</h3>
-                <div class="text-holder color04">
-<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                </div></div>
-                </div>
-                <div class="col col-sm-3 col-xs-6">
-                <div class="inner-holder background09">
-                 <div class="icone_box counter color10">108</div>
-                <h3>Employees</h3>
-                <div class="text-holder color04">
-<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                </div>
-                </div>
-                </div>
-                <div class="col col-sm-3 col-xs-6">
-                <div class="inner-holder background09">
-                 <div class="icone_box counter color10">89</div>
-                <h3>Worldwide Clients</h3>
-                <div class="text-holder color04">
-<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                </div>
-                </div>
-                </div>
-                <div class="col col-sm-3 col-xs-6">
-                <div class="inner-holder background09">
-                 <div class="icone_box counter color10">12</div>
-                <h3>Surprising Parties</h3>
-                <div class="text-holder color04">
-<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                </div>
-                </div>
+        	<div class="holder">
+            <div class="boxes animated fadeIn slow">
+            	<div class="text-box">
+                <div class="col col-md-4 col-sm-4 col-xs-6">
+                    <div class="icone_box col-md-3 col-sm-4 col-xs-4"><span class="background08 color01"><i class="fa fa-clock-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-9 col-sm-8 col-xs-8">
+                    <h3>SMOOTH &amp; flUENT</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+    <a class="color08" href="javascript:void(0)">Read More</a>
+                    </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-4 col-xs-6">
+                    <div class="icone_box col-md-3 col-sm-4 col-xs-4"><span class="background08 color01"><i class="fa fa-heart-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-9 col-sm-8 col-xs-8">
+                    <h3>loved by thousands</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+    <a class="color08" href="javascript:void(0)">Read More</a>
+                    </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-4 col-xs-6">
+                    <div class="icone_box col-md-3 col-sm-4 col-xs-4"><span class="background08 color01"><i class="fa fa-headphones">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-9 col-sm-8 col-xs-8">
+                    <h3>Updates &amp; Supports</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+    <a class="color08" href="javascript:void(0)">Read More</a>
+                    </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-4 col-xs-6">
+                    <div class="icone_box col-md-3 col-sm-4 col-xs-4"><span class="background08 color01"><i class="fa fa-bell-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-9 col-sm-8 col-xs-8">
+                    <h3>lOREM IPSUM</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+    <a class="color08" href="javascript:void(0)">Read More</a>
+                    </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-4 col-xs-6">
+                    <div class="icone_box col-md-3 col-sm-4 col-xs-4"><span class="background08 color01"><i class="fa fa-envelope-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-9 col-sm-8 col-xs-8">
+                    <h3>DOLOR SIT AMET</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+    <a class="color08" href="javascript:void(0)">Read More</a>
+                    </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-4 col-xs-6">
+                    <div class="icone_box col-md-3 col-sm-4 col-xs-4"><span class="background08 color01"><i class="fa fa-star-o">&nbsp;</i></span></div>
+                    <div class="text-holder color02 col-md-9 col-sm-8 col-xs-8">
+                    <h3>cONSECTETURE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis. </p>
+    <a class="color08" href="javascript:void(0)">Read More</a>
+                    </div>
+                    </div>
                 </div>
             </div>
+            </div>
         </div>
-      
       </div>
-  </section><section id="block17a" class="block background01 animatedParent animateOnce" zp-module="Price-Table">        
-        <div class="price_table">
-        	<div class="animated fadeIn slow">
-            <h2>price table</h2>
-            </div>
-        </div>
-            <div class="box_container animated fadeIn slow background03">
-    <div class="container">
-    <div class="row">
-    <div class="boxes">
-               	<div class="col color02 col-md-4 col-sm-4 col-xs-11">
-                <div class="col-nner background01">
-                <div class="price_box">
-                <span>Basic</span>
-                <h3>$20</h3>
-                <h4>Free Account</h4>
-                </div>
-                <div class="text-holder color02"> 
-<p>Lorem Ipsum Proin 
-gravida nibh vel velit 
-auctor aliquet 
-enean sollicitudin 
-lorem quis bibendum 
-auctor nisi elit 
-consequat ipsum</p>
-                </div>
-                <a class="btn more color01 color01-hover background15" href="#">start your free trial</a>
-                </div>
-                </div>
-                <div class="col color02 col-md-4 col-sm-4 col-xs-11">
-                <div class="col-nner background01">
-                <div class="price_box">
-                 <span>PROFESSIONAL</span>
-                <h3>$60</h3>
-                <h4>Monthly Membership</h4>
-                 </div>
-                 <div class="text-holder color02"> 
-<p>Lorem Ipsum Proin 
-gravida nibh vel velit 
-auctor aliquet 
-enean sollicitudin 
-lorem quis bibendum 
-auctor nisi elit 
-consequat ipsum</p>
-                </div>
-                <a class="btn more color01 color01-hover background15" href="#">buy now</a>
-                </div>
-                </div>
-                <div class="col color02 col-md-4 col-sm-4 col-xs-11">
-                <div class="col-nner background01">
-                <div class="price_box">
-                 <span>unlimited</span>
-                <h3>$100</h3>
-                <h4>Yearly Membership</h4>
-                 </div>
-                 <div class="text-holder color02"> 
-<p>Lorem Ipsum Proin 
-gravida nibh vel velit 
-auctor aliquet 
-enean sollicitudin 
-lorem quis bibendum 
-auctor nisi elit 
-consequat ipsum</p>
-                </div>
-                <a class="btn more color01 color01-hover background15" href="#">buy now</a>
-                </div>
-                </div>
-                                
-                 
-                 </div>
-           </div>       
-            </div>
-
-</div>
-      
-        
   </section><section id="block16" class="block background01 animatedParent animateOnce" zp-module="Email-Signup">
          	<div class="signup animated fadeIn slow color01">
         	<h2 class="color01">newsletter signup</h2>
@@ -211,138 +288,28 @@ consequat ipsum</p>
   <button type="submit" class="btn btn-default more border-color06 color02 color01-hover01">Sign up</button>
 </form>
         </div>
-  </section><div id="divider01" class="divider01" zp-module="Separator">&nbsp;</div><section id="block10a" class="block background01 animatedParent animateOnce" zp-module="Team">
+  </section><div id="divider01" class="divider01" zp-module="Separator">&nbsp;</div><footer id="block13" class="footer block background01 animatedParent animateOnce" zp-module="Footer">
     <div class="container">
       	<div class="row">
-        <div class="team">
-        	<h2 class="animated fadeIn slow">The Creative</h2>
-        	<div class="boxes animated fadeIn slow">
-                <div class="col col-sm-3 col-xs-6">
-                <div class="icone_box"><img src="images/creative05.jpg" alt="Creatives">
-                	<div class="caption background08a">
-                    <div class="text-holder color01">
-                 <h3>Sara Johnson</h3>
-				<p>Creative Head</p>
-                </div>
-                	<div class="social_share">
-                    	 <a class="btn more color01 color01-hover" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
-                            <a class="btn more color01 color01-hover" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
-                            <a class="btn more color01 color01-hover" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col col-sm-3 col-xs-6">
-                 <div class="icone_box"><img src="images/creative06.jpg" alt="Creatives">
-                 	<div class="caption background08a">
-                    <div class="text-holder color01">
-                <h3>Matt Alex</h3>
-				<p>Art Director</p>
-                </div>
-                 	<div class="social_share">
-                    	 <a class="btn more color01 color01-hover" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
-                            <a class="btn more color01 color01-hover" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
-                            <a class="btn more color01 color01-hover" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
-                    </div>
-                    </div>
-                 </div>
-                </div>
-                <div class="col col-sm-3 col-xs-6">
-                 <div class="icone_box"><img src="images/creative07.jpg" alt="Creatives">
-                	<div class="caption background08a">
-                    <div class="text-holder color01">
-                    <h3>CHris Philips</h3>
-                    <p>Senior Designer</p>
-                </div>
-                 	<div class="social_share">
-                    	 <a class="btn more color01 color01-hover" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
-                            <a class="btn more color01 color01-hover" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
-                            <a class="btn more color01 color01-hover" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
-                    </div>
-                    </div>
-                 </div>
-                </div>
-                <div class="col col-sm-3 col-xs-6">
-                 <div class="icone_box"><img src="images/creative08.jpg" alt="Creatives">
-                 	<div class="caption background08a">
-                    <div class="text-holder color01">
-                    <h3>Jimmy Smith</h3>
-                    <p>Marketing Manager</p>
-                </div>
-                 	<div class="social_share">
-                    	 <a class="btn more icone01 color01 color01-hover" href="#"><i class="fa fa-facebook">&nbsp;</i></a>
-                            <a class="btn more icone02 color01 color01-hover" href="#"><i class="fa fa-twitter">&nbsp;</i></a>
-                            <a class="btn more icone03 color01 color01-hover" href="#"><i class="fa fa-google-plus">&nbsp;</i></a>
-                    </div>
-                    </div>
-                 </div>
-                </div>
-            </div>
-            </div>
-        </div>
-      
-      </div>
-  </section><section id="block12d" class="block animatedParent animateOnce background09" zp-module="Contact">
-  <div class="mail-section">
-      <div class="quickemail animated fadeIn slow">
-    <div class="container">
-      	<div class="row">
-                <div class="left-nav col-md-2 col-sm-3">
-  <h2 class="color02">QUICK LINK</h2>
-  <ul>
-  	<li><a class="color01-hover05 active" href="#">Home</a></li>
-    <li><a class="color01-hover05" href="#">About us</a></li>
-    <li><a class="color01-hover05" href="#">Services</a></li>
-    <li><a class="color01-hover05" href="#">work</a></li>
-    <li><a class="color01-hover05" href="#">Experties</a></li>
-    <li><a class="color01-hover05" href="#">Blog</a></li>
-    <li><a class="color01-hover05" href="#">Contact us</a></li>
-  </ul>
-   </div>
-                <div class="form col-md-8 col-sm-9">
-                <h2 class="color02">quick email</h2>
-                	<form class="form-inline">
-                    <div class="fullwidth">
-  <div class="center-feild col-md-6">
-  <div class="form-group">
-    <input type="text" class="form-control color02 background01" id="exampleInputName2" placeholder="Name">
-  </div>
-  <div class="form-group">
-    <input type="email" class="form-control color02 background01" id="exampleInputEmail2" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control color02 background01" id="exampleInputName2" placeholder="how we can help?">
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control color02 background01" id="exampleInputName2" placeholder="budget">
-  </div>
-   </div>
-   <div class="right-feild col-md-6">
-   <div class="form-group fullwidth">
-  <textarea class="form-control color02 background01 border-color08" rows="3" placeholder="type your message here"></textarea>
-  </div></div>
-  </div>
-  <div class="submitbutton fullwidth">
-  	<button type="submit" class="btn more background07 color01 color01-hover01">request a quote</button>
-  </div>
-</form>
-                </div>
-<div class="social-icons col-md-2 col-sm-12">
-  <h2 class="color02">FOLLOW</h2>
-  <ul>
-        	<li><a class="color02 color01-hover04 background01" href="#"><i class="fa fa-facebook">&nbsp;</i></a></li>
-            <li><a class="color02 color01-hover04 background01" href="#"><i class="fa fa-twitter">&nbsp;</i></a></li>
-            <li><a class="color02 color01-hover04 background01" href="#"><i class="fa fa-behance">&nbsp;</i></a></li>
-            <li><a class="color02 color01-hover04 background01" href="#"><i class="fa fa-linkedin">&nbsp;</i></a></li>
-            <li><a class="color02 color01-hover04 background01" href="#"><i class="fa fa-google-plus">&nbsp;</i></a></li>
-            <li><a class="color02 color01-hover04 background01" href="#"><i class="fa fa-tumblr">&nbsp;</i></a></li>            
+        	<div class="footerinner animated fadeIn slow">
+            <div class="logo_bottom"><a href="#"><img class="img-responsive" src="images/logo01.png" alt="jigsaw"></a></div>
+            <span class="color02 col-xs-12 col-sm-6 col-md-6">© jigsaw.com</span>
+            <div class="social-icon">
+        <ul>
+            <li><a class="color02" href="#"><i class="fa fa-tumblr">&nbsp;</i></a></li>
+            <li><a class="color02" href="#"><i class="fa fa-google-plus">&nbsp;</i></a></li>
+            <li><a class="color02" href="#"><i class="fa fa-facebook">&nbsp;</i></a></li>
+            <li><a class="color02" href="#"><i class="fa fa-linkedin">&nbsp;</i></a></li>
+            <li><a class="color02" href="#"><i class="fa fa-twitter">&nbsp;</i></a></li>
+            <li><a class="color02" href="#"><i class="fa fa-behance">&nbsp;</i></a></li>
         </ul>
-   </div>
+
+        </div>
+            </div>
         </div>
       
-      </div></div>
       </div>
-  </section></div><script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
+  </footer></div><script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/responsive-slider.js"></script> 
 <script src="js/countUp.js"></script> 
